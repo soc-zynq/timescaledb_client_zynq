@@ -1,0 +1,19 @@
+# Ignore build directory
+build/
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore executables
+*.exe
+*.out
+*.o
+
+# Ignore cppcheck result files
+cppcheck.xml
+
+# Ignore clang-format result files
+.clang-format
